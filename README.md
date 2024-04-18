@@ -25,13 +25,13 @@ Aplikasi ini adalah solusi praktis untuk mengelola data buku dengan mudah dan re
 2. Install dependensi:
 
     ```
-    npm install
+    pnpm install
     ```
 
 3. Jalankan aplikasi:
 
     ```
-    npm start
+    pnpm start
     ```
 
 4. Buka `http://localhost:3000` di browser untuk melihat aplikasi.
@@ -42,4 +42,4 @@ Anda dipersilakan untuk melaporkan bug atau mengajukan fitur baru. Silakan buka 
 
 ## Lisensi
 
-Diprogram oleh [Nama Anda](link_profil_github) under [MIT License](link_ke_lisensi).
+Diprogram oleh [Edu Juanda Pratama](https://github.com/yastar123)
