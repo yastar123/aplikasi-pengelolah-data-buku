@@ -1,0 +1,67 @@
+html, * {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 7vh; /* Setarakan dengan min-h-screen dari Tailwind */
+}
+
+.content {
+    width: 100%;
+    max-width: 20rem; /* Setarakan dengan max-w-xs dari Tailwind */
+}
+
+.title {
+    padding: 5% 0 2% 0;
+    font-weight: bold;
+    font-size: 1.875rem; /* Setarakan dengan text-3xl dari Tailwind */
+    color: #60a5fa; /* Setarakan dengan text-blue-600 dari Tailwind */
+}
+
+.description {
+    font-weight: medium;
+    color: #64748b; /* Setarakan dengan text-slate-600 dari Tailwind */
+    margin-bottom: 1.5rem; /* Setarakan dengan mb-6 dari Tailwind */
+}
+
+.navigation-text {
+    text-align: center;
+    margin-top: 1.25rem; /* Setarakan dengan mt-5 dari Tailwind */
+    font-size: 0.875rem; /* Setarakan dengan text-sm dari Tailwind */
+}
+
+.link {
+    font-weight: bold;
+    color: #60a5fa; /* Setarakan dengan text-blue-600 dari Tailwind */
+}
+
+/* Gaya umum */
+.container {
+    max-width: 1200px; /* Lebar kontainer maksimum untuk laptop */
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Gaya untuk smartphone */
+@media only screen and (max-width: 600px) {
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 80vh; /* Setarakan dengan min-h-screen dari Tailwind */
+    }
+}
+
+/* Gaya untuk tablet */
+@media only screen and (min-width: 601px) and (max-width: 1300px) {
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 77vh; /* Setarakan dengan min-h-screen dari Tailwind */
+        }
+}
